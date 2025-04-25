@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    /* overflow: auto; */
+    background-color: black;
+    padding: 22px 22px;
+    
+}
+nav{
+    position: fixed;
+    top: 0; 
+    z-index: 1000;
+    width: 100%;
+     left: 0;
+
+}
+
+.navbar  .logo{
+    float: left;
+    font-size: 22px;
+    color: aliceblue;
+    padding-right: 90px;
+}
+  
+.navbar ul{
+    /* float: left; */
+    overflow: auto;
+    padding-left: 60px;
+    list-style-type: none;
+}
+
+.navbar ul li{
+    float: left;
+    padding-right: 20px ;
+    text-decoration: none;
+     
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+
+
+}
+.navbar ul li a:hover{
+    color: rgb(55, 141, 221);
+text-decoration: underline;
+}
+
+.navbar .search{
+    float: right;
+    padding-left:600px ;
+}
+.navbar .search input{
+    padding: 5px;
+    border-radius: 10px;
+}
+.home .image img{
+    width: 100%;
+    /* margin-top: 100px; */
+}
+.home {
+    background-image: url('p1.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height:95vh;
+}
+.header{
+    padding: 200px 20px;
+    margin-right:700px ;
+   
+    
+}
+.header h2{
+    font-size: 39px;
+    line-height: 2.7rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn{
+    margin-top: 18px;
+}
+.btn button{
+    padding: 12px;
+    font-size: 18px;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding-top: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    padding: 0px 55px;
+    display: flex;
+    gap: 200px;
+    text-align: center;
+
+}
+.container .box{
+    height: 100px;
+    width: 100px;
+    filter: grayscale(100%);
+    /* flex: 1; */
+}
+.container .box:hover{
+    filter: grayscale(0%);
+}
+.head{
+    text-align: center;
+    margin-top: 120px;
+    font-size: 27px;
+    font-family:cursive;
+    color: rgb(44, 43, 43);
+}
+.head:hover{
+    color: rgb(42, 100, 187);
+    /* font-size: 12px; */
+}
+.container1{
+    padding: 40px 35px;
+    display: flex;
+    gap: 20px;
+}
+.container1 .box1{
+    transition: 0.9s ease;
+    flex: 1;
+}
+.container1 .box1:hover{
+    transform: scale(1.1);
+}
+.container1 .box1 h3{
+    line-height: 2.9rem;
+    font-size: 23px;
+    font-style: italic;
+    color: rgb(42, 100, 187);
+}
+.container1 .box1 p{
+    font-size: 15px;
+}
+.row{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    gap:90px;
+    padding: 20px 50px;
+}
+.row .col img{
+    height: 60vh;
+    width: 120%;
+    border-radius: 10px;
+    margin: 35px 0px ;
+    margin-left: 70px;
+}
+.row .col h2{
+    font-size: 36px;
+    color: rgb(42, 100, 187) ;
+    margin-top: 23px;
+    padding-left: 120px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.col .para{
+    color: rgb(127, 187, 255);
+    padding-top: 10px;
+    padding-left: 120px;
+}
+.col .conta{
+    display: flex;
+    gap: 20px;
+    padding: 20px 120px ;
+    color: rgb(127, 187, 255);
+}
+.col .conta .box p{
+    background-color: rgb(59, 128, 189);
+    color: rgb(190, 252, 252);
+    padding: 10px 15px;
+    border-radius: 100%;
+    /* padding-top: 5px; */
+}
+.col .conta .box{
+    line-height: 1.7rem;
+}
+.row1{
+    /* background-color: rgb(0, 0, 0); */
+    display: flex;
+    gap:20px;
+    padding: 20px 90px;
+}
+.row1 .col1 {
+    width: 890px;
+}
+.row1 .col1 h2{
+    font-size: 36px;
+    color: rgb(42, 100, 187) ;
+    margin-top: 23px;
+    padding-left: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.row1 .col1 p{
+    font-size: 18px;
+    color: rgb(62, 70, 82) ;
+    margin-top: 23px;
+}
+.col1 .conta{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 10px 1px ;
+    color: black;
+    /* flex: 1; */
+}
+.col1 .conta .box{
+    background-color: rgb(84, 139, 221);
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 70px;
+    border-radius: 10px;
+    flex: 1;
+
+}
+.row1 .col1 h2{
+    font-size: 36px;
+    color: rgb(42, 100, 187) ;
+    margin-top: 23px;
+    padding-left: 120px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.row1 .conta .box .p1{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.row1 .conta .box p{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+.test .box1{
+    border: 1px solid black;
+    padding: 10px ;
+    border-radius: 10px;
+    flex: 1;
+}
+.footer{
+    background-color: rgb(42, 100, 187);
+}
+.footer hr{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.foot{
+    
+    display: flex;
+    padding: 40px 30px;
+}
+.foot .boxer{
+    gap:20px;
+    flex: 1;
+}
+.foot .boxer h2{
+    font-size: 43px;
+}
+.foot .boxer h3{
+    color: rgb(170, 160, 160);
+}
+.copyright{
+    padding: 30px;
+}
